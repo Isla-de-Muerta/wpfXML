@@ -1,0 +1,15 @@
+C:\Users\ЗияшИ\source\repos\Document\Document\bin\Debug\Document.exe.config
+C:\Users\ЗияшИ\source\repos\Document\Document\bin\Debug\Document.exe
+C:\Users\ЗияшИ\source\repos\Document\Document\bin\Debug\Document.pdb
+C:\Users\ЗияшИ\source\repos\Document\Document\obj\Debug\Document.csprojAssemblyReference.cache
+C:\Users\ЗияшИ\source\repos\Document\Document\obj\Debug\MainWindow.g.cs
+C:\Users\ЗияшИ\source\repos\Document\Document\obj\Debug\App.g.cs
+C:\Users\ЗияшИ\source\repos\Document\Document\obj\Debug\Document_MarkupCompile.cache
+C:\Users\ЗияшИ\source\repos\Document\Document\obj\Debug\Document_MarkupCompile.lref
+C:\Users\ЗияшИ\source\repos\Document\Document\obj\Debug\MainWindow.baml
+C:\Users\ЗияшИ\source\repos\Document\Document\obj\Debug\Document.g.resources
+C:\Users\ЗияшИ\source\repos\Document\Document\obj\Debug\Document.Properties.Resources.resources
+C:\Users\ЗияшИ\source\repos\Document\Document\obj\Debug\Document.csproj.GenerateResource.cache
+C:\Users\ЗияшИ\source\repos\Document\Document\obj\Debug\Document.csproj.CoreCompileInputs.cache
+C:\Users\ЗияшИ\source\repos\Document\Document\obj\Debug\Document.exe
+C:\Users\ЗияшИ\source\repos\Document\Document\obj\Debug\Document.pdb
