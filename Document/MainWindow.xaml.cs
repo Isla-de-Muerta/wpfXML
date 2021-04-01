@@ -32,7 +32,7 @@ namespace Document
         private void Button_click1(object sender, RoutedEventArgs e)
         {
 			Item it = new Item();
-			txtBox.Text = ($"{it.Title = "HABR"}\n {it.Description = "Информация об интересном на habrahabr"}\n {it.PubDate = DateTime.Now.ToString()}");
+			txtBlock.Text = ($"{it.Title = "HABR"}\n {it.Description = "Информация об интересном на habrahabr"}\n {it.PubDate = DateTime.Now.ToString()}");
 		}
 
         private void button_Click2(object sender, RoutedEventArgs e)
@@ -43,7 +43,6 @@ namespace Document
 		private void Xml_Fail()
 		{
 			string URLString = "https://habrahabr.ru/rss/interesting/";
-			items.Item = new List<Item>();
 			try
 			{
 				using (XmlTextReader reader = new XmlTextReader(URLString))
@@ -114,12 +113,17 @@ namespace Document
 						rootNode.AppendChild(item);
 					}
 					xmlDoc.Save("habr.txt");
-					txtBox.Text = "Готово файл создан";
+				}
+                using (StreamReader habr = new StreamReader("habr.txt"))
+				{
+					string line = habr.ReadToEnd();
+					txtBlock.Text = line;
+					txtBlock.Text += "\nГотово файл создан";
 				}
 			}
 			catch (Exception e)
 			{
-                throw new Exception(txtBox.Text = e.Message);
+                throw new Exception(txtBlock.Text = e.Message);
 			}
 		}
 	}
@@ -142,12 +146,10 @@ namespace Document
 	{
 		[XmlElement(ElementName = "item")]
 		public List<Item> Item { get; set; }
-	}
 
-	[XmlRoot(ElementName = "rss")]
-	public class Rss
-	{
-		[XmlElement(ElementName = "channel")]
-		public Channel Channel { get; set; }
+		public Channel()
+        {
+			Item = new List<Item>();
+        }
 	}
 }

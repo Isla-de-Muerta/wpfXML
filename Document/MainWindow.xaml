@@ -7,10 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="650">
     <StackPanel>
-        <ScrollViewer>
-            <TextBox Background="Silver" x:Name="txtBox"/>
+        <ScrollViewer Height="350">
+            <StackPanel>
+                <TextBlock Background="Silver" x:Name="txtBlock"/>
+            </StackPanel>
         </ScrollViewer>
-        <StackPanel Margin="0 300" Orientation="Horizontal">
+        <StackPanel Orientation="Horizontal">
             <Button Background="Silver" x:Name="ButtonInfo" Click="Button_click1" Height="50" Width="150" >Больше информации</Button>
             <Button Background="Silver" x:Name="button2" Click="button_Click2"  Height="50" Width="100">Создать XML</Button>
         </StackPanel>

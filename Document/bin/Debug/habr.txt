@@ -1,5 +1,47 @@
 <items>
   <item>
+    <title>Tarantool vs Redis: что умеют in-memory технологии</title>
+    <link>https://habr.com/ru/post/550062/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=550062</link>
+    <description>&lt;div style="text-align:center;"&gt;&lt;img src="https://habrastorage.org/webt/yg/t6/kv/ygt6kvwjr0gdvnmpds7s7n-iros.jpeg"&gt;&lt;/div&gt;&lt;br&gt;
+В этой статье я хочу сравнить Redis и Tarantool. У меня нет цели сделать громогласный вывод «Tarantool лучше!» или «Redis круче!». Я хочу понять их сходства и отличия, разобраться, для каких задач какую технологию выбрать. Потому что это очень близкие на первый взгляд вещи, и вопросы про их отличия я вижу часто.&lt;br&gt;
+&lt;br&gt;
+Для этого мы посмотрим на технологии в трёх частях:&lt;br&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Вначале посмотрим глазами новичка. Что такое БД в памяти? Какие задачи они решают лучше дисковых БД?&lt;/li&gt;
+&lt;li&gt;Потом посмотрим архитектурно. Как обстоит вопрос с производительностью, надёжностью, масштабированием?&lt;/li&gt;
+&lt;li&gt;В третьей части лезем в технические вещи поглубже. Типы данных, итераторы, индексы, транзакции, ЯП, репликация, коннекторы.&lt;/li&gt;
+&lt;/ul&gt;&lt;br&gt;
+Смело переходите сразу к наиболее интересной вам части. Или даже сразу к итоговой табличке сравнения, которую я прикладываю в заключении.&lt;br&gt;
+&lt;br&gt;
+Поехали!&lt;br&gt; &lt;a href="https://habr.com/ru/post/550062/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=550062#habracut"&gt;Читать дальше &amp;rarr;&lt;/a&gt;</description>
+    <pubDate>Thu, 01 Apr 2021 14:04:32 GMT</pubDate>
+  </item>
+  <item>
+    <title>Программа HolyJS: нюансы DevTools, минусы GraphQL, инструменты a11y</title>
+    <link>https://habr.com/ru/post/549922/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=549922</link>
+    <description>&lt;p&gt;&lt;img src="https://habrastorage.org/webt/q2/2p/2x/q22p2x8t9r0y6jonawibv_lpnbi.png"&gt;&lt;/p&gt;&lt;br&gt;
+&lt;p&gt;Осталось меньше месяца до конференции &lt;strong&gt;&lt;a href="https://holyjs-piter.ru/?utm_source=habr&amp;amp;utm_medium=549922" rel="nofollow noopener noreferrer"&gt;HolyJS&lt;/a&gt;&lt;/strong&gt; (20-23 апреля, онлайн) — пора рассказать, что именно там будет. Под катом описания докладов с разбивкой по тематическим блокам. А для начала — несколько вопросов для затравки:&lt;/p&gt;&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;В чём недостатки GraphQL? &lt;/li&gt;
+&lt;li&gt;Зачем OCaml на фронтенде?&lt;/li&gt;
+&lt;li&gt;Чего вы не знаете о DevTools?&lt;/li&gt;
+&lt;li&gt;Как писать надёжные тесты для Vue?&lt;/li&gt;
+&lt;li&gt;Как сделать свой DSL-язык легко и непринуждённо?&lt;/li&gt;
+&lt;li&gt;Как добиться на дешёвом устройстве плавности дорогого?&lt;/li&gt;
+&lt;li&gt;Как отобразить 100500 метрик и не сойти с ума?&lt;/li&gt;
+&lt;li&gt;Как принести в JS типы ещё радикальнее, чем в TypeScript?&lt;/li&gt;
+&lt;/ul&gt;&lt;br&gt;
+&lt;p&gt;Ответы на всё это и многое другое — в докладах.&lt;/p&gt; &lt;a href="https://habr.com/ru/post/549922/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=549922#habracut"&gt;Читать дальше &amp;rarr;&lt;/a&gt;</description>
+    <pubDate>Thu, 01 Apr 2021 10:53:46 GMT</pubDate>
+  </item>
+  <item>
+    <title>Опрос об интересных направлениях обучения</title>
+    <link>https://habr.com/ru/post/550214/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=550214</link>
+    <description>&lt;p&gt;ИТ-специалисты и руководители, маркетологи, HR-ы, аналитики и все-все-все – не проходите мимо, нам очень нужна ваша помощь! Учебный центр &lt;a href="https://academy.ru/"&gt;«Сетевая Академия ЛАНИТ»&lt;/a&gt; просит вас принять участие в очень важном для нас опросе. &lt;/p&gt;&lt;p&gt;Мы стремимся постоянно совершенствовать свои услуги и приглашаем вас внести свой вклад в наше дальнейшее развитие. &lt;/p&gt;&lt;p&gt;Расскажите, какие направления обучения вам интересны, как вы предпочитаете учиться и что вы думаете о нас. Так вы поможете нам сделать наши продукты полезнее и качественнее. Просим уделить всего две минуты для ответа на &lt;a href="https://docs.google.com/forms/d/194SQT4GoMGlUPoWivKV3xWuxPaKyu12gJxhWmRH14C8/edit?usp=sharing"&gt;эти вопросы&lt;/a&gt;.  Любые дополнительные замечания и предложения пишите в комментариях – нам ценно то, что вы думаете.&lt;/p&gt; &lt;a href="https://habr.com/ru/post/550214/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=550214#habracut"&gt;Читать далее&lt;/a&gt;</description>
+    <pubDate>Thu, 01 Apr 2021 13:31:56 GMT</pubDate>
+  </item>
+  <item>
     <title>[Перевод] Реализуем бессерверный API с AWS Gateway и Lambda</title>
     <link>https://habr.com/ru/post/549898/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=549898</link>
     <description>&lt;p&gt;&lt;img src="https://habrastorage.org/webt/pc/d2/d_/pcd2d_lkn3rziz94v9dotpb-tzs.jpeg"&gt;&lt;/p&gt;&lt;br&gt;
@@ -14,6 +56,12 @@
  &lt;br&gt;
 Несмотря на то что компания Red Hat &lt;a href="https://habr.com/ru/company/selectel/blog/538530/"&gt;выпустила альтернативу&lt;/a&gt; и сделала ее бесплатной для некоторых пользователей и компаний, множество пользователей CentOS не стали переходить на RHEL. Эта нехорошая ситуация спровоцировала активное развитие форков — альтернатив CentOS 8. Одна из них уже готова к использованию.&lt;br&gt; &lt;a href="https://habr.com/ru/post/550028/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=550028#habracut"&gt;Читать дальше &amp;rarr;&lt;/a&gt;</description>
     <pubDate>Thu, 01 Apr 2021 11:30:26 GMT</pubDate>
+  </item>
+  <item>
+    <title>Как эффективно проводить 1:1 встречи</title>
+    <link>https://habr.com/ru/post/550152/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=550152</link>
+    <description>&lt;p&gt;После 1:1 участники должны выходить радостными котиками&lt;/p&gt;&lt;p&gt;Встреча 1:1 (one-on-one) — регулярная встреча менеджера и его сотрудника. Это отличный инструмент для развития и построения доверительных отношений в работе. В прошлой компании я был на стороне менеджера, в Miro — на стороне сотрудника. Обычно у меня одна встреча с менеджером в неделю.&lt;/p&gt;&lt;p&gt;В этой статье опишу, без чего встречи будут неэффективными, какие типы 1:1 существуют, и какой вид 1:1 самый недооценённый. Будут примеры вопросов для разных типов встреч.&lt;/p&gt; &lt;a href="https://habr.com/ru/post/550152/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=550152#habracut"&gt;Read more&lt;/a&gt;</description>
+    <pubDate>Thu, 01 Apr 2021 10:57:52 GMT</pubDate>
   </item>
   <item>
     <title>Asciidoc для подготовки сложной документации</title>
@@ -137,41 +185,5 @@ Seq2seq — самая «человеческая» форма решения з
 &lt;br&gt;
 В этот весенний день наконец, настало время рассказать о самом зимнем проекте Нижегородского центра разработки Intel, демонстрирующем не только компетенции сотрудников подразделения, но и потенциал нашей страны. Точнее, её климатических особенностей. А еще точнее – российских зим. В результате выпадения в некоторые зимы килотонн снега, стоящее чуть в стороне от улиц здание Intel с прилегающими территориями буквально превращалось в большой сугроб. Это натолкнуло команду Центра на смелую мысль: продемонстрировать разрабатываемые ей технологии на примере автономной «беспилотной» снегоуборочной машины. Так родился уникальный проект SLONN (Snow Lab of Nizhny Novgorod) – робот-снегоуборщик. Шутку «Россия – родина Слонов», вы, наверняка, в названии разглядели, а далее у нас серьезный рассказ о проекте с уникальной функциональностью, включающей распознавание снеговиков.&lt;br&gt; &lt;a href="https://habr.com/ru/post/549766/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=549766#habracut"&gt;Читать дальше &amp;rarr;&lt;/a&gt;</description>
     <pubDate>Thu, 01 Apr 2021 06:33:05 GMT</pubDate>
-  </item>
-  <item>
-    <title>Где работать в ИТ в 2021: JetRuby</title>
-    <link>https://habr.com/ru/post/550132/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=550132</link>
-    <description>&lt;p&gt;Сегодня в новом выпуске рубрики «Где работать в ИТ» — JetRuby — компания, которая помогает амбициозным стартапам превращаться в крупные компании. У ребят есть офисы в Сан-Франциско, Львове и Краснодаре. На наши традиционные вопросы ответили её краснодарские сотрудники: бэкендеры Алексей Болдак, Виталий (фамилия засекречена) и Даниил Бобер; фулстек Павел Шушпан; QA-лид Александр Конюхов и эйчар Юля Тищенко.&lt;/p&gt; &lt;a href="https://habr.com/ru/post/550132/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=550132#habracut"&gt;Читать далее&lt;/a&gt;</description>
-    <pubDate>Thu, 01 Apr 2021 08:55:05 GMT</pubDate>
-  </item>
-  <item>
-    <title>История Учи.ру: от мини-монолитов до микросервисной архитектуры</title>
-    <link>https://habr.com/ru/post/549712/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=549712</link>
-    <description>&lt;p&gt;Добрая четверть моего рабочего времени за последний год ушла на обновление архитектуры Учи.ру. С ростом продуктов и количества пользователей увеличился и клубок зависимостей в монолите. Выделяя из него части и набивая на этом пути шишки, я не раз задумывался о том, как мы к этому пришли. Волей-неволей вспоминаешь, с чего все начиналось.&lt;/p&gt;&lt;p&gt;В этом посте я попробовал собрать историю архитектуры Учи.ру. В нем нет фрагментов кода и исчерпывающих технических подробностей. О нашем опыте выделения микросервисов для решения некоторых задач образовательной платформы — в следующих публикациях. &lt;/p&gt; &lt;a href="https://habr.com/ru/post/549712/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=549712#habracut"&gt;Читать далее&lt;/a&gt;</description>
-    <pubDate>Wed, 31 Mar 2021 10:13:38 GMT</pubDate>
-  </item>
-  <item>
-    <title>[Перевод] Почему стоит использовать exa вместо привычной консольной утилиты ls</title>
-    <link>https://habr.com/ru/post/549988/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=549988</link>
-    <description>&lt;img src="https://habrastorage.org/webt/gt/et/6u/gtet6ugbhmxxac1weqgs0mp5uq0.jpeg"&gt;&lt;br&gt;
-&lt;i&gt;Изображение:&lt;/i&gt; Opensource.com&lt;br&gt;
-&lt;br&gt;
-Цель автора статьи — показать, что exa может легко заменить стандартную утилиту ls. И более того, в сравнении с ls, exa — более гибкий и мощный инструмент.&lt;br&gt;
-&lt;br&gt;
-Стараясь сэкономить время и силы, мы автоматизируем часто повторяющиеся и сложные операции. Например, для отслеживания изменений содержимого каталогов и информации о файлах в Linux-системах многие по-прежнему используют команду ls. Но вывод ls по умолчанию [по мнению автора] не совсем приятен для глаз, поэтому приходится выкручиваться. При работе с ls возникает ещё ряд неудобств, но в этой статье мы не будем про них говорить. И вообще, зачем тратить на это время, если есть exa? &lt;a href="https://habr.com/ru/post/549988/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=549988#habracut"&gt;Читать дальше &amp;rarr;&lt;/a&gt;</description>
-    <pubDate>Thu, 01 Apr 2021 08:10:01 GMT</pubDate>
-  </item>
-  <item>
-    <title>[Перевод] Font size бесполезен, давайте это исправим</title>
-    <link>https://habr.com/ru/post/550046/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=550046</link>
-    <description>Что происходит, когда вы указываете в редакторе &lt;code&gt;&amp;quot;font_size&amp;quot;: 32&lt;/code&gt;? Я бы вам всё равно рассказал, но хорошо, что спросили.&lt;br&gt;
-&lt;br&gt;
-Попробуем догадаться. Я пользуюсь Sublime Text 4 под macOS:&lt;br&gt;
-&lt;br&gt;
-&lt;div style="text-align:center;"&gt;&lt;img src="https://habrastorage.org/webt/nj/hk/nk/njhknkt_xcgz7ozy4_2rha7td5u.png"&gt;&lt;/div&gt;&lt;br&gt;
-Если мы измерим сами буквы, то нигде не найдём числа 32:&lt;br&gt;
-&lt;br&gt;
-32 — это не ширина и не высота буквы, и не высота заглавной буквы, и не рост строчных знаков, и не высота верхних или нижних выносных элементов. Что за дела? &lt;a href="https://habr.com/ru/post/550046/?utm_source=habrahabr&amp;amp;utm_medium=rss&amp;amp;utm_campaign=550046#habracut"&gt;Читать дальше &amp;rarr;&lt;/a&gt;</description>
-    <pubDate>Thu, 01 Apr 2021 07:40:01 GMT</pubDate>
   </item>
 </items>
